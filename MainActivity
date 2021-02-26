@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(!spinning) {
 
-            int spin = random.nextInt (1800 - 360) + 360;
+            int spin = random.nextInt (1800) + 720;
             float pivotX = bottle.getWidth() / 2;
             float pivotY = bottle.getHeight() / 2;
 
